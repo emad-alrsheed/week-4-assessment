@@ -4,6 +4,7 @@
 <head>
   <title>Flexbox Assessment</title>
   <style>
+    
     * {
       color: #fff;
       font-size: 20px;
@@ -21,11 +22,26 @@
       background-color: #d90;
     }
 
-    .leftbar,
+    .leftbar{
+      background-color: #09d;
+      box-sizing: content-box;
+      padding: 50px;
+border-block-end-color: #fff;
+      flex-direction: row;
+      display: table-column;
+    }
     .rightbar {
       background-color: #09d;
+      box-sizing: content-box;
+      padding: 50px;
+      border-radius: 2px;
+      border-block-end-color: #fff;
+      flex-direction: row;
+      display: table-column;
 
     }
+
+    
 
     footer {
       height: 4%;
@@ -49,6 +65,8 @@
 
     /* END CODE AREA */
   </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body class="body">

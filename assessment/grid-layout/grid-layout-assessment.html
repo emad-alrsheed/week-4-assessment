@@ -2,9 +2,12 @@
 <html>
 
 <head>
+  
   <title>Grid Layout Assessment</title>
   <style>
     body {
+      display: grid;
+      grid-auto-columns: f1 f1 f1 f1 f1 f1;
       margin: 10px;
       font-family: 'Abel';
       text-align: center;
@@ -12,32 +15,48 @@
     }
 
     .item {
+      justify-content: center
       color: white;
       padding: 1.5em 0;
       font-size: 2em;
     }
 
     .a {
+      
+      margin: 100px;
+      padding: 100px;
       background: #0d9;
     }
 
-    .b {
+    .b {margin: 100px;
+      padding: 100px;
+
       background: #d90;
     }
 
     .c {
+      margin: 100px;
+      padding: 100px;
+
       background: #9d0;
     }
 
     .d {
+      margin: 100px;
+      padding: 100px;
       background: #90d;
     }
 
     .e {
+      margin: 100px;
+      padding: 100px;
+
       background: #d09;
     }
 
-    .f {
+    .f {margin: 100px;
+      padding: 100px;
+
       background: #09d;
     }
 
@@ -51,12 +70,13 @@
 
     /* END CODE AREA */
   </style>
+  
 </head>
 
 <body>
 </body>
 <h1>Grid Layout</h1>
-<div class="container">
+<div class="container" >
   <div class="item a">A</div>
   <div class="item b">B</div>
   <div class="item c">C</div>
